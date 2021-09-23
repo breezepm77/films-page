@@ -1,11 +1,22 @@
 @import './general';
 
+@font-face {
+    font-family: 'Grechen Fuemen';
+    src: url('/fonts/GrechenFuemen-Regular.woff2') format('woff2'),
+        url('/fonts/GrechenFuemen-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 .film{
     &__title{
+        font-family: 'Grechen Fuemen';
+        font-weight: 400;
         padding: 10px 0;
         background: linear-gradient(to right,orange,gold);
         color: #fff;
         text-align: center;
+        font-size: 40px;
     }
     &__menu{
         margin-top: 20px;
@@ -14,6 +25,9 @@
         justify-content: space-around;
     }
     &__item{
+        font-family: 'Grechen Fuemen';
+        font-weight: 400;
+        font-size: 24px;
         padding: 20px;
         margin-bottom: 15px;
         width: 290px;
@@ -32,18 +46,26 @@
         width: 255px;
     }
     &__subtitle{
+        font-family: 'Grechen Fuemen';
+    font-weight: 400;
         text-align: center;
         text-transform: uppercase;
+        font-size: 34px;
     }
     &__subtitle{
         margin: 10px 0;
     }
     &__time{
+        font-family: 'Grechen Fuemen';
+        font-weight: 400;
+        font-size: 224x;
         display: inline-block;
         margin: 10px 0;
     }
 }
 #search{
+    font-family: 'Grechen Fuemen';
+    font-weight: 400;
     width: 180px;
     height: 40px;
     text-align: center;
@@ -51,6 +73,7 @@
     background: linear-gradient(to right,orange,gold);
     border: none;
     border-radius: 5px;
+    font-size: 26px;
 }
 #search::placeholder{
     color: #fff;
@@ -61,6 +84,8 @@
     max-height: 100vh;
 }
 #select{
+    font-family: 'Grechen Fuemen';
+    font-weight: 400;
     width: 120px;
     height: 35px;
     margin-left: 20px;
@@ -69,8 +94,11 @@
     border-radius: 3px;
     text-align: center;
     color: red;
+    font-size: 22px;
 }
 #btn{
+    font-family: 'Grechen Fuemen';
+        font-weight: 400;
     width: 130px;
     height: 38px;
     margin-left: 15px;
@@ -78,4 +106,5 @@
     background: linear-gradient(to right,orange,gold);
     border: none;
     border-radius: 5px;
+    font-size: 22px;
 }
