@@ -79,6 +79,14 @@ a {
   width: 255px;
 }
 
+.film__img:hover {
+  -webkit-transition: 2s ease all;
+  transition: 2s ease all;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  border-radius: 10%;
+}
+
 .film__subtitle {
   font-family: 'Grechen Fuemen';
   font-weight: 400;
