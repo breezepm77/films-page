@@ -38,6 +38,7 @@ a {
   color: #fff;
   text-align: center;
   font-size: 40px;
+  max-width: 100%;
 }
 
 .film__menu {
@@ -66,6 +67,7 @@ a {
   color: #fff;
   text-align: center;
   margin-right: 10px;
+  max-width: 100%;
 }
 
 .film__item:hover {
@@ -77,6 +79,7 @@ a {
 
 .film__img {
   width: 255px;
+  max-width: 100%;
 }
 
 .film__img:hover {
@@ -93,10 +96,12 @@ a {
   text-align: center;
   text-transform: uppercase;
   font-size: 34px;
+  max-width: 100%;
 }
 
 .film__subtitle {
   margin: 10px 0;
+  max-width: 100%;
 }
 
 .film__time {
@@ -105,6 +110,7 @@ a {
   font-size: 224x;
   display: inline-block;
   margin: 10px 0;
+  max-width: 100%;
 }
 
 #search {
@@ -119,28 +125,34 @@ a {
   border: none;
   border-radius: 5px;
   font-size: 26px;
+  max-width: 100%;
 }
 
 #search::-webkit-input-placeholder {
   color: #fff;
+  max-width: 100%;
 }
 
 #search:-ms-input-placeholder {
   color: #fff;
+  max-width: 100%;
 }
 
 #search::-ms-input-placeholder {
   color: #fff;
+  max-width: 100%;
 }
 
 #search::placeholder {
   color: #fff;
+  max-width: 100%;
 }
 
 #form {
   margin-top: 50px;
   margin-bottom: 50px;
   max-height: 100vh;
+  max-width: 100%;
 }
 
 #select {
@@ -156,6 +168,7 @@ a {
   text-align: center;
   color: red;
   font-size: 22px;
+  max-width: 100%;
 }
 
 #btn {
@@ -170,5 +183,16 @@ a {
   border: none;
   border-radius: 5px;
   font-size: 22px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 765px) {
+  #search {
+    margin-left: -5px;
+    margin-bottom: 20px;
+  }
+  #select {
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
