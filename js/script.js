@@ -2,6 +2,7 @@ const elMenu = getElem('.film__menu');
 const elForm = getElem('#form');
 const elSearch = getElem('#search');
 const elSelect = getElem('#select', elForm);
+const elSelect2 = getElem('#select2')
 
 
 function renderGenres(filmArr, element){
@@ -101,3 +102,4 @@ elForm.addEventListener('click', (e)=>{
         renderFilms(GenereArray, elMenu)
     }
 })
+

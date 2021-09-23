@@ -8,6 +8,14 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Digital-7';
+    src: url('/fonts/Digital-7.woff2') format('woff2'),
+        url('/fonts/Digital-7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 .film{
     &__title{
         font-family: 'Grechen Fuemen';
@@ -67,9 +75,9 @@ border-radius: 10%;
         max-width: 100%;
     }
     &__time{
-        font-family: 'Grechen Fuemen';
+        font-family: 'Digital-7';
         font-weight: 400;
-        font-size: 224x;
+        font-size: 32px;
         display: inline-block;
         margin: 10px 0;
         max-width: 100%;
