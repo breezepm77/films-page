@@ -194,5 +194,12 @@ a {
   #select {
     margin-bottom: 20px;
   }
+  #select {
+    margin-bottom: 20px;
+  }
+  .film__img:hover {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
 }
 /*# sourceMappingURL=main.css.map */
