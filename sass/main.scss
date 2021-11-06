@@ -96,6 +96,9 @@ border-radius: 10%;
     font-size: 26px;
     max-width: 100%;
 }
+#search:focus{
+    outline: none;
+}
 #search::placeholder{
     color: #fff;
     max-width: 100%;
@@ -119,6 +122,9 @@ border-radius: 10%;
     color: red;
     font-size: 22px;
     max-width: 100%;
+    &:focus{
+        outline: none;
+    }
 }
 #btn{
     font-family: 'Grechen Fuemen';

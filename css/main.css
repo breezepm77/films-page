@@ -136,6 +136,10 @@ a {
   max-width: 100%;
 }
 
+#search:focus {
+  outline: none;
+}
+
 #search::-webkit-input-placeholder {
   color: #fff;
   max-width: 100%;
@@ -177,6 +181,10 @@ a {
   color: red;
   font-size: 22px;
   max-width: 100%;
+}
+
+#select:focus {
+  outline: none;
 }
 
 #btn {
